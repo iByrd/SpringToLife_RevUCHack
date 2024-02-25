@@ -45,6 +45,13 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery/jquery-ui.js" ></script>
+
+        <script type
+
     </nav>
 
 </head>
@@ -52,8 +59,17 @@
         <h1>Spring To Life</h1>
 
         <div>
+
+            <--! src @ https://wallpapers.com/images/hd/family-portrait-1920-x-1080-background-9olg4f5h2m101sly.jpg -->
             <img th:src="@{/images/HeroIndex.jpg}" class="img-fluid">
         </div>
+
+        <audio controls autoplay>
+            <--! sourced then manual clip : src @ https://www.youtube.com/watch?v=Uq734_nZ7Eo -->
+            <source th:src="@{/audio/HeroAudio.mp3}" class="mp3">
+        </audio>
+
+
 
     </body>
 </html>
